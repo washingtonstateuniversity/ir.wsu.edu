@@ -1,5 +1,13 @@
 <?php
 
+add_action( 'init', 'ir_register_extra_menus' );
+/**
+ * Registers additional portions of the main Spine menu.
+ */
+function ir_register_extra_menus() {
+	register_nav_menus( array( 'site-restricted' => 'Restricted Pages', 'site-bottom' => 'Spine Bottom' ) );
+}
+
 add_action( 'init', 'ir_college_dept_profiles_shortcode' );
 /**
  * Sets up the shortcode used to display a list of college department profiles.

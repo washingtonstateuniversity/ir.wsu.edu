@@ -19,8 +19,15 @@ function ir_college_dept_profiles_shortcode() {
 /**
  * Displays the HTML markup used in combination with JavaScript to select from
  * a list of colleges, departments, and campuses to download a profile report.
+ *
+ * @param array $atts
  */
-function display_ir_college_dept_profiles() {
+function display_ir_college_dept_profiles( $atts ) {
+	if ( ! isset( $atts['json_url'] ) ) {
+		$json_url = get_stylesheet_directory_uri() . '/js/menu.json';
+	} else {
+		$json_url = $atts['json_url'];
+	}
 
 	ob_start();
 	?>
@@ -30,7 +37,7 @@ function display_ir_college_dept_profiles() {
 		<label for="drop_down_campus">Campus:</label><select id="drop_down_campus"></select><br/>
 
 		<input type="hidden" id="report_file_base_path" value="/files/profiles_startingFall2012/active_employee/" />
-		<input type="hidden" id="report_data" value="<?php echo esc_url( get_stylesheet_directory_uri() . '/js/menu.json' ); ?>" />
+		<input type="hidden" id="report_data" value="<?php echo esc_url( $json_url ); ?>" />
 		<input type="hidden" id="report_ext" value="xls" />
 
 		<input type="button" id="drop_down_handler" value="Download Profile Report" />

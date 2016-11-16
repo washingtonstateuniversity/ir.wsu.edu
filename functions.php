@@ -43,3 +43,31 @@ function display_ir_college_dept_profiles() {
 
 	return $content;
 }
+
+add_filter( 'pre_site_option_upload_filetypes', 'ir_set_upload_filetypes', 99, 1 );
+/**
+ * Filters the upload_filetypes option to allow for JSON uploads on this site.
+ *
+ * @param string $option
+ *
+ * @return string
+ */
+function ir_set_upload_filetypes( $option ) {
+	$option .= ' json';
+
+	return $option;
+}
+
+add_filter( 'upload_mimes', 'ir_set_upload_mimes', 99, 1 );
+/**
+ * Filters the recognized mime types to allow for JSON uploads.
+ *
+ * @param array $mime_types
+ *
+ * @return array
+ */
+function ir_set_upload_mimes( $mime_types ) {
+	$mime_types['json'] = 'application/json';
+
+	return $mime_types;
+}

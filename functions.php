@@ -78,3 +78,23 @@ function ir_set_upload_mimes( $mime_types ) {
 
 	return $mime_types;
 }
+
+add_action( 'wsuwp_sso_set_authentication', 'ir_set_auth_cookies', 10, 2 );
+/**
+ * Sets an additional cookie containing the user's AD group information
+ * after a successful authentication.
+ *
+ * @param WP_User $user
+ * @param array   $user_ad_data
+ */
+function ir_set_auth_cookies( $user, $user_ad_data ) {
+	if ( ! isset( $user_ad_data['memberof'] ) || empty( $user_ad_data['memberof'] ) ) {
+		return;
+	}
+
+	$user_ad_groups = implode( ',', $user_ad_data['memberof'] );
+	$expire = time() + 1 * DAY_IN_SECONDS;
+	$secure = is_ssl();
+
+	setcookie( 'ir_ad_groups', $user_ad_groups, $expire, SITECOOKIEPATH, COOKIE_DOMAIN, $secure, true);
+}

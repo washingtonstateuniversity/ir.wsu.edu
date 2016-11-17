@@ -96,5 +96,5 @@ function ir_set_auth_cookies( $user, $user_ad_data ) {
 	$expire = time() + 1 * DAY_IN_SECONDS;
 	$secure = is_ssl();
 
-	setcookie( 'ir_ad_groups', $user_ad_groups, $expire, SITECOOKIEPATH, COOKIE_DOMAIN, $secure, true);
+	setcookie( 'ir_ad_groups', $user_ad_groups, $expire, SITECOOKIEPATH, COOKIE_DOMAIN, $secure, true );
 }

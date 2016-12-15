@@ -169,7 +169,7 @@ ColDeptCamDropDown.form_handler = function (){
 		filep = filep + "_" + campus;
 	}
 	if(filep.length>0){
-		filep = ColDeptCamDropDown.basePath + level + "_" + filep + "_15." + ColDeptCamDropDown.fileExt;
+		filep = ColDeptCamDropDown.basePath + level + "_" + filep + '_' + window.ir_data.year_suffix + '.' + ColDeptCamDropDown.fileExt;
 		window.location = filep;
 	}else{
 		alert("Sorry, you didn't select any report.");

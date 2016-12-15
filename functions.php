@@ -29,6 +29,11 @@ function display_ir_college_dept_profiles( $atts ) {
 		$json_url = $atts['json_url'];
 	}
 
+	if ( ! isset( $atts['suffix'] ) ) {
+		$suffix = 15;
+	} else {
+		$suffix = absint( $atts['suffix'] );
+	}
 	ob_start();
 	?>
 	<div class="dropdown-container">
@@ -47,6 +52,7 @@ function display_ir_college_dept_profiles( $atts ) {
 	ob_end_clean();
 
 	wp_enqueue_script( 'ir-college-dropdown', get_stylesheet_directory_uri() . '/js/ir-dropdown.js', array( 'jquery' ), false, true );
+	wp_localize_script( 'ir-college-dropdown', 'ir_data', array( 'year_suffix' => $suffix ) );
 
 	return $content;
 }

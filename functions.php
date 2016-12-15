@@ -129,7 +129,7 @@ add_filter( 'user_in_content_visibility_groups', 'ir_process_content_visibility_
  *
  * @return bool False if the user is not a group member. True if the user is.
  */
-public function ir_process_content_visibility_permissions( $allowed, $user_id, $groups ) {
+function ir_process_content_visibility_permissions( $allowed, $user_id, $groups ) {
 	// Don't override a previous success.
 	if ( true === $allowed ) {
 		return $allowed;

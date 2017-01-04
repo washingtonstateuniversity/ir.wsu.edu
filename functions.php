@@ -35,11 +35,11 @@ function display_ir_college_dept_profiles( $atts ) {
 		$suffix = '_' . absint( $atts['suffix'] );
 	}
 
-	if ( ! isset( $atts['file_base_path' ] ) ) {
+	if ( ! isset( $atts['file_base_path'] ) ) {
 	    $file_base_path = 'profiles_startingFall2012/active_employee/';
-    } else {
+	} else {
 	    $file_base_path = $atts['file_base_path'];
-    }
+	}
 	ob_start();
 	?>
 	<div class="dropdown-container">

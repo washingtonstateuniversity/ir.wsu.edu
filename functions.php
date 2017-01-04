@@ -30,9 +30,15 @@ function display_ir_college_dept_profiles( $atts ) {
 	}
 
 	if ( ! isset( $atts['suffix'] ) ) {
-		$suffix = 15;
+		$suffix = '';
 	} else {
-		$suffix = absint( $atts['suffix'] );
+		$suffix = '_' . absint( $atts['suffix'] );
+	}
+
+	if ( ! isset( $atts['file_base_path'] ) ) {
+	    $file_base_path = 'profiles_startingFall2012/active_employee/';
+	} else {
+	    $file_base_path = $atts['file_base_path'];
 	}
 	ob_start();
 	?>
@@ -41,7 +47,7 @@ function display_ir_college_dept_profiles( $atts ) {
 		<label for="drop_down_dept">Department:</label><select id="drop_down_dept"></select><br/>
 		<label for="drop_down_campus">Campus:</label><select id="drop_down_campus"></select><br/>
 
-		<input type="hidden" id="report_file_base_path" value="/files/profiles_startingFall2012/active_employee/" />
+		<input type="hidden" id="report_file_base_path" value="/files/<?php echo esc_attr( $file_base_path ); ?>" />
 		<input type="hidden" id="report_data" value="<?php echo esc_url( $json_url ); ?>" />
 		<input type="hidden" id="report_ext" value="xls" />
 

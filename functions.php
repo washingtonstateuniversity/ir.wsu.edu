@@ -30,9 +30,9 @@ function display_ir_college_dept_profiles( $atts ) {
 	}
 
 	if ( ! isset( $atts['suffix'] ) ) {
-		$suffix = 15;
+		$suffix = '';
 	} else {
-		$suffix = absint( $atts['suffix'] );
+		$suffix = '_' . absint( $atts['suffix'] );
 	}
 
 	if ( ! isset( $atts['file_base_path' ] ) ) {

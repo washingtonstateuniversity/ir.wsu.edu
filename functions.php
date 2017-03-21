@@ -10,10 +10,61 @@ function ir_register_extra_menus() {
 
 add_action( 'init', 'ir_college_dept_profiles_shortcode' );
 /**
- * Sets up the shortcode used to display a list of college department profiles.
+ * Sets up shortcodes used by the theme.
  */
 function ir_college_dept_profiles_shortcode() {
+	add_shortcode( 'ir_ugrd_retention_reports', 'display_ir_ugrd_retention_reports' );
 	add_shortcode( 'ir_college_dept_profiles', 'display_ir_college_dept_profiles' );
+}
+
+/**
+ * Displays a list of selections to generate a URGD retention report.
+ *
+ * @since 0.0.4
+ *
+ * @param array $atts
+ *
+ * @return string
+ */
+function display_ir_ugrd_retention_reports( $atts ) {
+	if ( ! isset( $atts['json_url'] ) ) {
+		$json_url = get_stylesheet_directory_uri() . '/js/ugrd-retention-menu.json';
+	} else {
+		$json_url = $atts['json_url'];
+	}
+
+	if ( ! isset( $atts['suffix'] ) ) {
+		$suffix = '_16';
+	} else {
+		$suffix = '_' . absint( $atts['suffix'] );
+	}
+
+	if ( ! isset( $atts['file_base_path'] ) ) {
+		$file_base_path = 'UGRD_retention_by_program/';
+	} else {
+		$file_base_path = $atts['file_base_path'];
+	}
+
+	ob_start();
+	?>
+	<div class="dropdown-container">
+		<label for="drop_down_area">Area:</label><select id="drop_down_area"><option value="">--- Select Area ---</option></select><br/>
+		<label for="drop_down_program">Program:</label><select id="drop_down_program"></select><br/>
+
+		<input type="hidden" id="report_file_base_path" value="/files/<?php echo esc_attr( $file_base_path ); ?>" />
+		<input type="hidden" id="report_data" value="<?php echo esc_url( $json_url ); ?>" />
+		<input type="hidden" id="report_suffix" value="<?php echo esc_attr( $suffix ); ?>" />
+
+		<input type="button" id="drop_down_handler" value="Download Retention Report" />
+	</div>
+	<?php
+	$content = ob_get_contents();
+	ob_end_clean();
+
+	wp_enqueue_script( 'ir-ugrd-dropdown', get_stylesheet_directory_uri() . '/js/ugrd-dropdown.js', array( 'jquery' ), false, true );
+	wp_localize_script( 'ir-ugrd-dropdown', 'ir_data', array( 'year_suffix' => $suffix ) );
+
+	return $content;
 }
 
 /**
@@ -21,6 +72,8 @@ function ir_college_dept_profiles_shortcode() {
  * a list of colleges, departments, and campuses to download a profile report.
  *
  * @param array $atts
+ *
+ * @return string
  */
 function display_ir_college_dept_profiles( $atts ) {
 	if ( ! isset( $atts['json_url'] ) ) {

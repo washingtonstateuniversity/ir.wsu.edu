@@ -1,4 +1,4 @@
-( function( $) {
+( function( $ ) {
 	$( document ).ready( function() {
 		var json_url = $( "#report_data" ).val();
 		var report_suffix = $( "#report_suffix" ).val();

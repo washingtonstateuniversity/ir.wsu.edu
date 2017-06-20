@@ -172,7 +172,7 @@ function ir_set_auth_cookies( $user, $user_ad_data ) {
 	);
 
 	$user_ad_groups = array();
-	foreach( $user_ad_data['memberof'] as $group ) {
+	foreach ( $user_ad_data['memberof'] as $group ) {
 		if ( in_array( $group, $ir_ad_groups, true ) ) {
 			$user_ad_groups[] = $group;
 		}

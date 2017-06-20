@@ -146,8 +146,8 @@ function ir_set_upload_mimes( $mime_types ) {
 
 add_action( 'wsuwp_sso_set_authentication', 'ir_set_auth_cookies', 10, 2 );
 /**
- * Sets an additional cookie containing the user's AD group information
- * after a successful authentication.
+ * Set an additional cookie after successful authentication containing the AD groups
+ * a user belongs to that are required to view certain content on ir.wsu.edu.
  *
  * @param WP_User $user
  * @param array   $user_ad_data
@@ -157,7 +157,28 @@ function ir_set_auth_cookies( $user, $user_ad_data ) {
 		return;
 	}
 
-	$user_ad_groups = implode( ',', $user_ad_data['memberof'] );
+	// List of AD groups used to restrict IR content.
+	$ir_ad_groups = array(
+		'IR_Managers',
+		'IR_Web_Users',
+		'IR_Admin',
+		'HRS_Appointing_Authority',
+		'Employees.Active.Courtesy',
+		'Employees.Active.Assistantship',
+		'Employees.Active.AdministrativeProfessional',
+		'Employees.Active.Faculty',
+		'Employees.Active.Hourly',
+		'Employees.Active.CivilService',
+	);
+
+	$user_ad_groups = array();
+	foreach( $user_ad_data['memberof'] as $group ) {
+		if ( in_array( $group, $ir_ad_groups, true ) ) {
+			$user_ad_groups[] = $group;
+		}
+	}
+
+	$user_ad_groups = implode( ',', $user_ad_groups );
 	$expire = time() + 1 * DAY_IN_SECONDS;
 	$secure = is_ssl();
 

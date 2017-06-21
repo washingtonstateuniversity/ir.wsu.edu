@@ -48,7 +48,7 @@ function display_ir_ugrd_retention_reports( $atts ) {
 	ob_start();
 	?>
 	<div class="dropdown-container">
-		<label for="drop_down_area">Area:</label><select id="drop_down_area"><option value="">--- Select Area ---</option></select><br/>
+		<label for="drop_down_area">College or Interdisciplinary School:</label><select id="drop_down_area"><option value="">--- Select College or Interdisciplinary School ---</option></select><br/>
 		<label for="drop_down_program">Program:</label><select id="drop_down_program"></select><br/>
 
 		<input type="hidden" id="report_file_base_path" value="/files/<?php echo esc_attr( $file_base_path ); ?>" />

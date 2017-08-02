@@ -20,7 +20,7 @@
 					area.append( $( "<option>", { value: val.area_name, text: val.area_name } ) );
 				}
 
-				menu_data[ val.area_name ][ val.retention_prog_descr ] = { code: val.Retention_Code, area: val.area, level: val.profile_level };
+				menu_data[ val.area_name ][ val.retention_prog_descr ] = { code: val.retention_code, area: val.area, level: val.profile_level };
 			} );
 		} );
 

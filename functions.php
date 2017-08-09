@@ -62,7 +62,7 @@ function display_ir_ugrd_retention_reports( $atts ) {
 	$content = ob_get_contents();
 	ob_end_clean();
 
-	wp_enqueue_script( 'ir-ugrd-dropdown', get_stylesheet_directory_uri() . '/js/ugrd-dropdown.js', array( 'jquery' ), '0.0.7', true );
+	wp_enqueue_script( 'ir-ugrd-dropdown', get_stylesheet_directory_uri() . '/js/ugrd-dropdown.js', array( 'jquery' ), '0.0.8', true );
 	wp_localize_script( 'ir-ugrd-dropdown', 'ir_data', array( 'year_suffix' => $suffix ) );
 
 	return $content;

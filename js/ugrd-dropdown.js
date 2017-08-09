@@ -51,6 +51,8 @@
 			for ( var key in menu_data[ el.target.value ] ) {
 				program.append( $( "<option>", { value: key, text: key } ) );
 			}
+
+			file = "";
 		} );
 
 		container.on( "change", "#drop_down_program", function( el ) {
@@ -67,6 +69,8 @@
 					} ) );
 				}
 			}
+
+			file = "";
 		} );
 
 		container.on( "change", "#drop_down_campus", function( el ) {

@@ -75,7 +75,7 @@
 			var profile_level = menu_data[ area.val() ][ program.val() ].level;
 			var campus_code = el.target.value;
 
-			file = profile_level + "_" + area_code + "_" + retention_code + "_" + campus_code + report_suffix + ".xls";
+			file = profile_level + "_" + area_code + "_" + retention_code + "_" + campus_code + report_suffix + ".xlsx";
 		} );
 
 		container.on( "click", "#drop_down_handler", function( el ) {

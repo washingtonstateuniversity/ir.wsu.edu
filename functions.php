@@ -28,7 +28,7 @@ function ir_college_dept_profiles_shortcode() {
  */
 function display_ir_ugrd_retention_reports( $atts ) {
 	if ( ! isset( $atts['json_url'] ) ) {
-		$json_url = get_stylesheet_directory_uri() . '/js/ugrd-retention-menu.json';
+		$json_url = get_stylesheet_directory_uri() . '/js/ugrd-retention-menu.json?ver=1';
 	} else {
 		$json_url = $atts['json_url'];
 	}
@@ -78,7 +78,7 @@ function display_ir_ugrd_retention_reports( $atts ) {
  */
 function display_ir_college_dept_profiles( $atts ) {
 	if ( ! isset( $atts['json_url'] ) ) {
-		$json_url = get_stylesheet_directory_uri() . '/js/menu.json';
+		$json_url = get_stylesheet_directory_uri() . '/js/menu.json?ver=1';
 	} else {
 		$json_url = $atts['json_url'];
 	}

@@ -111,7 +111,7 @@ function display_ir_college_dept_profiles( $atts ) {
 	$content = ob_get_contents();
 	ob_end_clean();
 
-	wp_enqueue_script( 'ir-college-dropdown', get_stylesheet_directory_uri() . '/js/ir-dropdown.js', array( 'jquery' ), '0.0.7', true );
+	wp_enqueue_script( 'ir-college-dropdown', get_stylesheet_directory_uri() . '/js/ir-dropdown.js', array( 'jquery' ), '1.0.0', true );
 	wp_localize_script( 'ir-college-dropdown', 'ir_data', array( 'year_suffix' => $suffix ) );
 
 	return $content;

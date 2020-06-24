@@ -30,7 +30,7 @@ function display_ir_ugrd_retention_reports( $atts ) {
 	if ( ! isset( $atts['json_url'] ) ) {
 		$json_url = get_stylesheet_directory_uri() . '/js/ugrd-retention-menu.json';
 	} else {
-		$json_url = $atts['json_url'];
+		$json_url = get_stylesheet_directory_uri() . $atts['json_url'];
 	}
 
 	if ( ! isset( $atts['suffix'] ) ) {

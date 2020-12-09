@@ -103,7 +103,7 @@ function display_ir_college_dept_profiles( $atts ) {
 
 		<input type="hidden" id="report_file_base_path" value="/files/<?php echo esc_attr( $file_base_path ); ?>" />
 		<input type="hidden" id="report_data" value="<?php echo esc_url( $json_url ); ?>" />
-		<input type="hidden" id="report_ext" value="xls" />
+		<input type="hidden" id="report_ext" value="xlsx" />
 
 		<input type="button" id="drop_down_handler" value="Download Profile Report" />
 	</div>

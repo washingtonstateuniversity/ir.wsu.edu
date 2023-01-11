@@ -1,7 +1,7 @@
 {
   "rows": [
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -18,7 +18,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -35,7 +35,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -52,7 +52,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -69,7 +69,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -86,7 +86,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -99,11 +99,11 @@
       "SPOKA": "N",
       "TRICI": "Y",
       "VANCO": "N",
-      "ONLIN": "N",
+      "ONLIN": "Y",
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -111,16 +111,16 @@
       "retention_prog_descr": "Chemistry (BA)",
       "retention_code": "0101",
       "LIST": "Y",
-      "ALL": "Y",
+      "ALL": "N",
       "PULLM": "Y",
       "SPOKA": "N",
       "TRICI": "N",
-      "VANCO": "Y",
+      "VANCO": "N",
       "ONLIN": "N",
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -137,7 +137,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -154,7 +154,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -171,7 +171,24 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
+      "profile_level_order": 2,
+      "profile_level": "PROG",
+      "area": "31",
+      "area_name": "Arts and Sciences",
+      "retention_prog_descr": "Data Analytics",
+      "retention_code": "0102",
+      "LIST": "Y",
+      "ALL": "Y",
+      "PULLM": "Y",
+      "SPOKA": "N",
+      "TRICI": "N",
+      "VANCO": "Y",
+      "ONLIN": "Y",
+      "EVERE": "Y"
+    },
+    {
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -188,7 +205,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -205,7 +222,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -222,7 +239,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -239,7 +256,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -256,7 +273,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -273,7 +290,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -290,7 +307,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -307,7 +324,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -324,7 +341,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -341,7 +358,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -358,7 +375,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -375,7 +392,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -392,7 +409,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -409,7 +426,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -426,7 +443,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -443,7 +460,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -460,7 +477,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -477,7 +494,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -494,7 +511,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "31",
@@ -507,11 +524,11 @@
       "SPOKA": "N",
       "TRICI": "Y",
       "VANCO": "Y",
-      "ONLIN": "N",
+      "ONLIN": "Y",
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "03",
@@ -528,7 +545,7 @@
       "EVERE": "Y"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "03",
@@ -545,7 +562,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "03",
@@ -562,7 +579,24 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
+      "profile_level_order": 2,
+      "profile_level": "PROG",
+      "area": "03",
+      "area_name": "CAHNRS",
+      "retention_prog_descr": "Business Administration",
+      "retention_code": "0003",
+      "LIST": "Y",
+      "ALL": "N",
+      "PULLM": "Y",
+      "SPOKA": "N",
+      "TRICI": "N",
+      "VANCO": "N",
+      "ONLIN": "N",
+      "EVERE": "N"
+    },
+    {
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "03",
@@ -579,7 +613,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "03",
@@ -596,7 +630,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "03",
@@ -613,7 +647,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "03",
@@ -630,7 +664,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "03",
@@ -647,7 +681,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "12",
@@ -664,7 +698,7 @@
       "EVERE": "Y"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "12",
@@ -681,7 +715,7 @@
       "EVERE": "Y"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "12",
@@ -698,7 +732,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "13",
@@ -715,7 +749,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "13",
@@ -732,7 +766,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "13",
@@ -740,16 +774,16 @@
       "retention_prog_descr": "Sport Management",
       "retention_code": "0024",
       "LIST": "Y",
-      "ALL": "N",
+      "ALL": "Y",
       "PULLM": "Y",
       "SPOKA": "N",
       "TRICI": "N",
       "VANCO": "N",
-      "ONLIN": "N",
+      "ONLIN": "Y",
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "13",
@@ -766,7 +800,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "08",
@@ -783,7 +817,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "08",
@@ -800,7 +834,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "14",
@@ -817,7 +851,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "14",
@@ -834,7 +868,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "14",
@@ -851,7 +885,7 @@
       "EVERE": "Y"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "14",
@@ -868,7 +902,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "06",
@@ -885,7 +919,24 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
+      "profile_level_order": 2,
+      "profile_level": "PROG",
+      "area": "15",
+      "area_name": "Pharmacy",
+      "retention_prog_descr": "Nutrition and Exercise Physiology",
+      "retention_code": "0060",
+      "LIST": "Y",
+      "ALL": "Y",
+      "PULLM": "Y",
+      "SPOKA": "Y",
+      "TRICI": "N",
+      "VANCO": "N",
+      "ONLIN": "N",
+      "EVERE": "N"
+    },
+    {
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "01",
@@ -902,7 +953,7 @@
       "EVERE": "Y"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "01",
@@ -919,7 +970,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "9998",
@@ -936,7 +987,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "9998",
@@ -953,7 +1004,24 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
+      "profile_level_order": 2,
+      "profile_level": "PROG",
+      "area": "9998",
+      "area_name": "School of the Environment",
+      "retention_prog_descr": "Geology",
+      "retention_code": "0049",
+      "LIST": "Y",
+      "ALL": "N",
+      "PULLM": "Y",
+      "SPOKA": "N",
+      "TRICI": "N",
+      "VANCO": "N",
+      "ONLIN": "N",
+      "EVERE": "N"
+    },
+    {
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "9998",
@@ -970,7 +1038,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "11",
@@ -987,7 +1055,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "11",
@@ -1004,7 +1072,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "11",
@@ -1021,7 +1089,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "11",
@@ -1038,7 +1106,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1055,7 +1123,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1072,7 +1140,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1089,7 +1157,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1106,7 +1174,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1123,7 +1191,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1140,7 +1208,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1157,7 +1225,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1174,7 +1242,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1191,7 +1259,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1208,7 +1276,7 @@
       "EVERE": "Y"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1225,7 +1293,7 @@
       "EVERE": "Y"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1242,7 +1310,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1259,7 +1327,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1276,7 +1344,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1293,7 +1361,7 @@
       "EVERE": "Y"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
@@ -1310,7 +1378,7 @@
       "EVERE": "N"
     },
     {
-      "orgru": "2022",
+      "orgru": "2021",
       "profile_level_order": 2,
       "profile_level": "PROG",
       "area": "05",
